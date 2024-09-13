@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HandsDemoScene.unity
     guid: 3ff35cecbcc52cc42945cf531638a60a
   - enabled: 0
     path: Assets/Scenes/Main Scene.unity
     guid: 24207ee654a30e4408c2b8ea7beeaccd
+  - enabled: 1
+    path: Assets/Scenes/HandGestures.unity
+    guid: c78a17ec29fa4c44fb35e442da199682
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 372488fea6d5f194eb238aafae980653,
       type: 2}
