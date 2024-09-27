@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bookshelf scene.unity
     guid: 534b5a9b9f96f7943a0584b9a43de401
+  - enabled: 1
+    path: Assets/Scenes/Grocery Store scene.unity
+    guid: 466ca23a556b47746b00621495871240
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4c96f47d513eb154ba3d9f11f487d42f,
       type: 2}
