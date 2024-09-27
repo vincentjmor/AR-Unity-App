@@ -135,6 +135,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 2
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.005
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -219,6 +229,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -307,6 +327,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 7
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.013
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -391,6 +421,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.026
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -579,6 +619,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 1
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.002
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -663,6 +713,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -1086,6 +1146,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 4
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1171,6 +1241,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
       objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.007
+      objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1219,6 +1299,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bookshelf slot 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.013
       objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -1304,6 +1394,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -1611,6 +1711,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 5
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.003
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1695,6 +1805,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -2577,7 +2697,7 @@ PrefabInstance:
     - target: {fileID: 2459597453594950324, guid: cc0d6bd3aca3b5d4a986e27ce112e071,
         type: 3}
       propertyPath: m_Text
-      value: Stocking an Isle.
+      value: Stocking an aisle.
       objectReference: {fileID: 0}
     - target: {fileID: 2932259739682790196, guid: cc0d6bd3aca3b5d4a986e27ce112e071,
         type: 3}
@@ -3103,6 +3223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colors.m_NormalColor.r
       value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774576546710604734, guid: cc0d6bd3aca3b5d4a986e27ce112e071,
+        type: 3}
+      propertyPath: m_Name
+      value: Microwave Scene
       objectReference: {fileID: 0}
     - target: {fileID: 8774576546710604735, guid: cc0d6bd3aca3b5d4a986e27ce112e071,
         type: 3}
@@ -3876,6 +4001,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 3
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.004
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3960,6 +4095,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -5234,6 +5379,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf slot 6
       objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136868517415886600, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002
+      objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5318,6 +5473,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119503333954798193, guid: aec71f91a8da27d418aa44bd0c543f9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.012
       objectReference: {fileID: 0}
     - target: {fileID: 6317744024979905813, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
