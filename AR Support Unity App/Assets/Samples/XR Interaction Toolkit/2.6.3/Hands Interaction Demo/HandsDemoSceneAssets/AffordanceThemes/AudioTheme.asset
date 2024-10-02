@@ -23,7 +23,7 @@ MonoBehaviour:
       stateEntered: {fileID: 0}
       stateExited: {fileID: 0}
     - stateName: hovered
-      stateEntered: {fileID: 8300000, guid: 9a6d738025ed59f4fb946bb59c20e774, type: 3}
+      stateEntered: {fileID: 8300000, guid: 24458302b5b0b5a498c0eb1f52a01762, type: 3}
       stateExited: {fileID: 0}
     - stateName: hoveredPriority
       stateEntered: {fileID: 0}
