@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master prefab
+  m_Shader: {fileID: 4800000, guid: 39dfa51bdf20504459e21c6622a03a76, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  - _USECOOKEDBASECOLORFORDEEPFRY_ON
+  - _USECOOKEDNORMALFORDEEPFRY_ON
+  - _USECOOKEDROUGHNESSFORDEEPFRY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 602b2ce51b978d9478b475191d6e5416, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5f3b040fb7dc2a5468a797ea1880de17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnBaseColor:
+        m_Texture: {fileID: 2800000, guid: 10c627ba3a8cab8459b51bf6bf515dbb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnBaseColor1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnedNormal:
+        m_Texture: {fileID: 2800000, guid: 145e568763b3bf143bdf3c9e0dac2b91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnedRoughnessMetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 702f1877f3d17c8469eedc877b95d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CookedBaseColor:
+        m_Texture: {fileID: 2800000, guid: a7c7c48b85f3f7c42999c17d7201e8bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CookedNormal:
+        m_Texture: {fileID: 2800000, guid: 145e568763b3bf143bdf3c9e0dac2b91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CookedRoughnessMetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 702f1877f3d17c8469eedc877b95d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Deepfrybasecolor:
+        m_Texture: {fileID: 2800000, guid: 52cb27f314c2548419b9784ad827a607, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Deepfrynormalmap:
+        m_Texture: {fileID: 2800000, guid: 04065173de01f364caa87c562c3e2a6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FriedBaseColor:
+        m_Texture: {fileID: 2800000, guid: a7c7c48b85f3f7c42999c17d7201e8bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FriedBaseColor1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FryedNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glossines:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glossiness:
+        m_Texture: {fileID: 2800000, guid: a136f724083f3be4291765857b5597d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 602b2ce51b978d9478b475191d6e5416, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: a9f641c98988d17499f631913ad5ead8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: b34b56b3e86cc56499b6e812f4f625db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 145e568763b3bf143bdf3c9e0dac2b91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RawBaseColor:
+        m_Texture: {fileID: 2800000, guid: cbe27280d35c19040a40d733dd0a4cac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RawBaseColor1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RawNormal1:
+        m_Texture: {fileID: 2800000, guid: 145e568763b3bf143bdf3c9e0dac2b91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RawRoughnessMetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 702f1877f3d17c8469eedc877b95d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 702f1877f3d17c8469eedc877b95d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMetallicSmoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness:
+        m_Texture: {fileID: 2800000, guid: e6357a369d4c640419bd385a1b1f8d44, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 04065173de01f364caa87c562c3e2a6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _BurnedMetallicSmoothness: 0
+    - _BurnedSmoothnessAdjust: 0.189
+    - _BurnedSmoothnessAdjust1: 0.8
+    - _BurnedSmoothnessAdjust2: 0.3
+    - _Burnedsmoothnessadjust: 0
+    - _CookedMetallicSmoothness: 0
+    - _CookedSmoothnessAdjust: 0.992
+    - _CookedSmoothnessAdjust1: 0.25
+    - _Cookedcolorbrightness: 1
+    - _Cookedcolormultipler: 0
+    - _Cookedcolorsaturation: 0
+    - _Cookedcolortint: 1
+    - _Cookedpower: 2
+    - _Cookedsmoothnessadjust: 0.4
+    - _Cookedvalue: 0
+    - _Cookedvaluedown: 0
+    - _Cookedvalueup: 0
+    - _Cutoff: 0.5
+    - _DeepFrySmoothness: 0.5
+    - _DeepFryTextureScale: 0.6
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float0: 10.86
+    - _FriedSmoothnessAdjust: 1
+    - _Friedvalue: 0
+    - _GlossMapScale: 0.896
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _MetallicSmoothness: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Overthisisburned: 0.7
+    - _Parallax: 0.02
+    - _RawMetallicSmoothness: 0
+    - _Rawsmoothnessadjust: 0
+    - _SmoothnessTextureChannel: 0
+    - _Smoothnessadjust: 0.433
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TEst: 0.6
+    - _Test: 0.414
+    - _UVSec: 0
+    - _Usecookedbasecolorfordeepfry: 1
+    - _Usecookednormalfordeepfry: 1
+    - _Usecookednormalmapfordeepfry: 0
+    - _Usecookedroughnessfordeepfry: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Burncolortint: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Cookedcolortint: {r: 1, g: 1, b: 1, a: 0}
+    - _Cookedcolortintcolor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Rawcolortint: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
