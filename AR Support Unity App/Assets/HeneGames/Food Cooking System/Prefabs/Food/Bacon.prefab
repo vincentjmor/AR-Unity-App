@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5887270611445516451
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 569391236697248997, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510477112431268, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5485406186392203601, guid: c586d5e9a1a769249b7a6d6b30b941b7, type: 3}
+    - target: {fileID: 4044510478375103432, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: fatContent
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103432, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: cookingSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103434, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_Name
+      value: Bacon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044510478375103435, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628029461657226148, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5485406186392203601, guid: c586d5e9a1a769249b7a6d6b30b941b7, type: 3}
+    - target: {fileID: 4628029461657226148, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 903ce9d2765e7744c89558275713cd00, type: 2}
+    - target: {fileID: 5161051366660340664, guid: 861ce7275039ca343a51b211de15b249, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5485406186392203601, guid: c586d5e9a1a769249b7a6d6b30b941b7, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 861ce7275039ca343a51b211de15b249, type: 3}
