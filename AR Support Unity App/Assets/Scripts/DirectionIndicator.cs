@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DirectionIndicator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform pointOfInterest;  // Assign the POI transform here
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Calculate the direction to the POI
+        Vector3 directionToPOI = (pointOfInterest.position - transform.position).normalized;
+
+        // Calculate the rotation needed to point towards the POI
+        Quaternion targetRotation = Quaternion.LookRotation(directionToPOI);
+
+        // Smoothly rotate the indicator towards the target direction
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
     }
 }
