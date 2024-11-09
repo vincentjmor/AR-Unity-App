@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HandGestures.unity
     guid: c78a17ec29fa4c44fb35e442da199682
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bookshelf scene.unity
     guid: 534b5a9b9f96f7943a0584b9a43de401
   - enabled: 1
