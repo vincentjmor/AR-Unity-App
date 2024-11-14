@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 424710150492905307}
   - component: {fileID: 424710150492905308}
   - component: {fileID: 424710150492905311}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 424710151285810736}
   - component: {fileID: 5070909372881660678}
   - component: {fileID: 424710151285810737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Master of masters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,9 +144,9 @@ MonoBehaviour:
   cookingEffectFat: {fileID: 3919378322040296518}
   cookingEffectBubbles: {fileID: 14627522269198385}
   cookingEffectDeepFryer: {fileID: 1982054715197642600}
-  floatingForce: 3
+  floatingForce: 6.88
   floatWhenDeepFrying: 1
-  floatingDepth: 1
+  floatingDepth: 0.336
   fatContent: 10
   cookedScaleMultiplier: -0.025
   cookingSpeed: 0.08
@@ -181,8 +181,8 @@ MonoBehaviour:
   audioSourceLoop: {fileID: 2555358498681064013}
   audioSourceStartCooking: {fileID: 5887439799716707910}
   startCookingSoundStove: {fileID: 8300000, guid: bafb9226fa96c574d854a76f7b61f634, type: 3}
-  startCookingSoundDeepFryer: {fileID: 8300000, guid: 7e1e437eb9264d14993be9b30097dccc, type: 3}
-  startCookingSoundOven: {fileID: 8300000, guid: 7e1e437eb9264d14993be9b30097dccc, type: 3}
+  startCookingSoundDeepFryer: {fileID: 0}
+  startCookingSoundOven: {fileID: 0}
   loopSoundStove: {fileID: 8300000, guid: 1440b7765c17d8d42bec7340e0bb151b, type: 3}
   loopSoundOven: {fileID: 8300000, guid: b5191649f52f32a438f03515a6c481d2, type: 3}
   loopSoundDeepFryer: {fileID: 8300000, guid: d82b1fca1054d4a40a19d0748f6cd16c, type: 3}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424710151408135154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 4189122981815867677}
   - component: {fileID: 1568693272532762581}
   - component: {fileID: 8816816238124955200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4133098539676233556}
   - component: {fileID: 5887439799716707910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Audio source start cooking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4516323554089680656}
   - component: {fileID: 2555358498681064013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Audio source loop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,17 +613,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6560046586713231936, guid: 73d0b7b8cca19cd4a80b559a5b22e185, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8889485040368004623, guid: 73d0b7b8cca19cd4a80b559a5b22e185, type: 3}
       propertyPath: m_Name
       value: Cooking effect
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889485040368004623, guid: 73d0b7b8cca19cd4a80b559a5b22e185, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73d0b7b8cca19cd4a80b559a5b22e185, type: 3}
@@ -649,10 +641,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 424710151285810739}
     m_Modifications:
-    - target: {fileID: 2891301874423326863, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3309842295481494180, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -684,10 +672,6 @@ PrefabInstance:
     - target: {fileID: 6851426111678890837, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
       propertyPath: m_Name
       value: Frying effect
-      objectReference: {fileID: 0}
-    - target: {fileID: 6851426111678890837, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8515572403093303232, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
       propertyPath: m_RootOrder
@@ -733,10 +717,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9169640729422741274, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8d3964e3e53774bb27d2a94a51d517, type: 3}
 --- !u!198 &1982054715197642600 stripped
@@ -763,10 +743,6 @@ PrefabInstance:
     - target: {fileID: 6266964995475134707, guid: 452b5d984ba0ee6479d92116eacf4a56, type: 3}
       propertyPath: m_Name
       value: Basic cooking smoke
-      objectReference: {fileID: 0}
-    - target: {fileID: 6266964995475134707, guid: 452b5d984ba0ee6479d92116eacf4a56, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8242653675937781331, guid: 452b5d984ba0ee6479d92116eacf4a56, type: 3}
       propertyPath: m_RootOrder
@@ -878,10 +854,6 @@ PrefabInstance:
     - target: {fileID: 2157375770629764982, guid: efe5098f8f471074f9f47275953d2fb1, type: 3}
       propertyPath: m_Name
       value: Burn smoke
-      objectReference: {fileID: 0}
-    - target: {fileID: 2157375770629764982, guid: efe5098f8f471074f9f47275953d2fb1, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8944841185904690251, guid: efe5098f8f471074f9f47275953d2fb1, type: 3}
       propertyPath: ShapeModule.m_MeshRenderer
