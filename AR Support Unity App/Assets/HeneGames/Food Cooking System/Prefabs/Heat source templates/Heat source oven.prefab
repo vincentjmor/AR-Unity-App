@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6621281493730552122}
   - component: {fileID: 6621281493730552123}
   - component: {fileID: 6621281493730552068}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Heat source oven
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b4ca1dca57b4ae4fa55081525c535b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookingSystemType: 1
   cookingStrenghtMultiplier: 0.1
   isHeatSourceOn: 1
-  oilSurface: {fileID: 0}
+  cookingSystemType: 1
+  fryerSurface: {fileID: 0}
 --- !u!65 &6621281493730552068
 BoxCollider:
   m_ObjectHideFlags: 0

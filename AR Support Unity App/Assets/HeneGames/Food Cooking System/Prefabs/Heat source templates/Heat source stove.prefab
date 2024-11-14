@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1164386545911382490}
   - component: {fileID: 1164386545911382485}
   - component: {fileID: 1164386545911382484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Heat source stove
   m_TagString: Untagged
   m_Icon: {fileID: 0}

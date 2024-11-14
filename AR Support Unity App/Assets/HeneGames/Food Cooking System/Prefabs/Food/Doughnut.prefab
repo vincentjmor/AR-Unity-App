@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: floatingDeep
       value: 0.349
       objectReference: {fileID: 0}
+    - target: {fileID: 424710151285810736, guid: 11b314ab0169b4e41b1157649541e12c, type: 3}
+      propertyPath: floatingDepth
+      value: 0.349
+      objectReference: {fileID: 0}
     - target: {fileID: 424710151285810738, guid: 11b314ab0169b4e41b1157649541e12c, type: 3}
       propertyPath: m_Name
       value: Doughnut
