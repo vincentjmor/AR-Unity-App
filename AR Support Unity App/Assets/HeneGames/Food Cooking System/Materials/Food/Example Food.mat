@@ -8,20 +8,19 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Example Food
-  m_Shader: {fileID: 4800000, guid: 39dfa51bdf20504459e21c6622a03a76, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 0ca13b61092eaf84abae356b816543dc,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _METALLICGLOSSMAP
-  - _NORMALMAP
-  - _USECOOKEDBASECOLORFORDEEPFRY_ON
-  - _USECOOKEDNORMALFORDEEPFRY_ON
-  - _USECOOKEDROUGHNESSFORDEEPFRY_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -49,6 +48,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: ffbb4d5e8d9f5374aae1f99dbb2ceb92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Burned_basecolor:
+        m_Texture: {fileID: 2800000, guid: 24a1d67dcf551b5499276865a2a808ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Burned_metallic_smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Burned_normal_map:
+        m_Texture: {fileID: 2800000, guid: 66d9752a33b6f91429e59d75324390e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _CookedBaseColor:
         m_Texture: {fileID: 2800000, guid: 347d55f45475de24b99a6237b82d556b, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,6 +70,26 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _CookedRoughnessMetallicSmoothness:
         m_Texture: {fileID: 2800000, guid: ffbb4d5e8d9f5374aae1f99dbb2ceb92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cooked_basecolor:
+        m_Texture: {fileID: 2800000, guid: 347d55f45475de24b99a6237b82d556b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cooked_metalness_smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cooked_normal_map:
+        m_Texture: {fileID: 2800000, guid: 66d9752a33b6f91429e59d75324390e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CookingTextureMask_30d8ab625356453999736bd537c86cbe_Deepfrytriplanartexture_4210180781_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Deep_fry_triplanar_basecolor:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Deepfrybasecolor:
@@ -117,6 +148,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: b34b56b3e86cc56499b6e812f4f625db, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metalness_smoothness_map:
+        m_Texture: {fileID: 2800000, guid: f784efa4f814b8842ab0bbdb836e601e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 145e568763b3bf143bdf3c9e0dac2b91, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -145,6 +180,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: ffbb4d5e8d9f5374aae1f99dbb2ceb92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Raw_basecolor:
+        m_Texture: {fileID: 2800000, guid: eaea8b370a9c3b84a9ad42967ee0d2a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Raw_metalness_smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Raw_normal_map:
+        m_Texture: {fileID: 2800000, guid: 66d9752a33b6f91429e59d75324390e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
         m_Texture: {fileID: 2800000, guid: 702f1877f3d17c8469eedc877b95d083, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -165,7 +212,31 @@ Material:
         m_Texture: {fileID: 2800000, guid: 04065173de01f364caa87c562c3e2a6d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Triplanar_deep_fry_basecolor:
+        m_Texture: {fileID: 2800000, guid: 52cb27f314c2548419b9784ad827a607, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_deep_fry_metallic_smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_deep_fry_normal:
+        m_Texture: {fileID: 2800000, guid: 04065173de01f364caa87c562c3e2a6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -177,10 +248,12 @@ Material:
     - _BurnedSmoothnessAdjust: 0.189
     - _BurnedSmoothnessAdjust1: 0.8
     - _BurnedSmoothnessAdjust2: 0.3
+    - _Burned_smoothness: 0
     - _Burnedsmoothnessadjust: 0.3
     - _CookedMetallicSmoothness: 0
     - _CookedSmoothnessAdjust: 0.992
     - _CookedSmoothnessAdjust1: 0.25
+    - _Cooked_smoothness: 1
     - _Cookedcolorbrightness: 1
     - _Cookedcolormultipler: 0
     - _Cookedcolorsaturation: 0
@@ -193,6 +266,7 @@ Material:
     - _Cutoff: 0.5
     - _DeepFrySmoothness: 1
     - _DeepFryTextureScale: 0.6
+    - _Deep_fryed_smoothness: 0.6
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Float0: 10.86
@@ -203,19 +277,28 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _MetallicSmoothness: 0
+    - _Metallic_Smoothness_map: 1
+    - _Metallic_roughness_map: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Overthisisburned: 0.7
     - _Parallax: 0.02
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _RawMetallicSmoothness: 0
+    - _Raw_smoothness: 0
     - _Rawsmoothnessadjust: 0.3
+    - _Roughness_map: 1
     - _SmoothnessTextureChannel: 0
+    - _Smoothness_map: 0
     - _Smoothnessadjust: 0.433
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TEst: 0.6
     - _Test: 0.414
+    - _Triplanar_deep_fry_tile: 1
     - _UVSec: 0
+    - _Use_cooked_basecolor_for_deep_fry: 0
     - _Usecookedbasecolorfordeepfry: 1
     - _Usecookednormalfordeepfry: 1
     - _Usecookednormalmapfordeepfry: 0
@@ -225,9 +308,25 @@ Material:
     m_Colors:
     - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _Burncolortint: {r: 1, g: 1, b: 1, a: 0}
+    - _Burned_color_tint: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Cooked_color_tint: {r: 1, g: 1, b: 1, a: 0}
     - _Cookedcolortint: {r: 1, g: 1, b: 1, a: 0}
     - _Cookedcolortintcolor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Raw_color_tint: {r: 1, g: 1, b: 1, a: 0}
     - _Rawcolortint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &2549562340092129567
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

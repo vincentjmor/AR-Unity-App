@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255238314438125330}
   - component: {fileID: 2974097459569276455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Audio source for loops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3713738888873042959}
   - component: {fileID: 7430979403636232869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Audio source for start cooking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 6426794135463065180}
   - component: {fileID: 6426794135463065178}
   - component: {fileID: 6426794135463065181}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Heat source oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,6 +326,8 @@ MonoBehaviour:
   cookingStrenghtMultiplier: 0.1
   isHeatSourceOn: 1
   oilSurface: {fileID: 6426794135463065180}
+  audioSourceLoop: {fileID: 2974097459569276455}
+  audioSourcePlay: {fileID: 7430979403636232869}
 --- !u!65 &6426794135463065181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -350,7 +352,7 @@ GameObject:
   - component: {fileID: 6426794136034432861}
   - component: {fileID: 6426794136034432859}
   - component: {fileID: 6426794136034432858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
