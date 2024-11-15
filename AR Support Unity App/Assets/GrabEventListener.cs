@@ -19,6 +19,7 @@ public class GrabEventListener : MonoBehaviour
     private void OnGrab(SelectEnterEventArgs args)
     {
         Debug.Log("Object grabbed!");
+        SecondTask.hasGrabbedMisplacedItem = true;
         // Perform actions when grabbed, such as changing color, updating UI, etc.
     }
 

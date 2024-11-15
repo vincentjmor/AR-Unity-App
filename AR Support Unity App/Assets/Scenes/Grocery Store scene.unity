@@ -1007,7 +1007,7 @@ PrefabInstance:
     - target: {fileID: 106093692981118498, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Name
-      value: Soda Slot 1 (4)
+      value: Red Slot
       objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -1553,6 +1553,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &261200654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 728864242803681389, guid: aec71f91a8da27d418aa44bd0c543f9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 580962326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261200651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &266300035 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e26e2b9c060747e42b7bddf00d2fb1bb,
@@ -2721,7 +2733,7 @@ PrefabInstance:
     - target: {fileID: 106093692981118498, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Name
-      value: Soda Slot 1 (2)
+      value: Blue Slot
       objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -3059,6 +3071,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &514204522 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 728864242803681389, guid: aec71f91a8da27d418aa44bd0c543f9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 248614622}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514204519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &522091249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3409,7 +3433,7 @@ PrefabInstance:
     - target: {fileID: 106093692981118498, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Name
-      value: Soda Slot 1 (3)
+      value: Green Slot
       objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -8267,6 +8291,20 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1283036638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283036630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb3aab1badf8974cb1add193f541818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  newColor: {r: 0.105882354, g: 0.90588236, b: 0.105882354, a: 1}
 --- !u!1001 &1316514625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8633,6 +8671,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1328996602 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 728864242803681389, guid: aec71f91a8da27d418aa44bd0c543f9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2089802950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328996599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1344345520 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e26e2b9c060747e42b7bddf00d2fb1bb,
@@ -11016,6 +11066,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1283036633}
+    - targetCorrespondingSourceObject: {fileID: 607899402752333743, guid: 40c7a7079034239458b89d55479faad9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283036638}
   m_SourcePrefab: {fileID: 100100000, guid: 40c7a7079034239458b89d55479faad9, type: 3}
 --- !u!1 &1556536833
 GameObject:
@@ -11283,6 +11337,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1839131983}
+    - targetCorrespondingSourceObject: {fileID: 607899402752333743, guid: 40c7a7079034239458b89d55479faad9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1839131988}
   m_SourcePrefab: {fileID: 100100000, guid: 40c7a7079034239458b89d55479faad9, type: 3}
 --- !u!1001 &1577361160
 PrefabInstance:
@@ -12734,6 +12792,24 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1839131988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839131980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25960cdd68ef864cb6e935a2b372b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueCanSocket: {fileID: 2104323767}
+  oragenCanSocket: {fileID: 1328996602}
+  redCanSocket: {fileID: 514204522}
+  greenCanSocket: {fileID: 261200654}
+  image: {fileID: 0}
+  newColor: {r: 0.105882354, g: 0.90588236, b: 0.105882354, a: 1}
 --- !u!1001 &1845905188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14824,7 +14900,7 @@ PrefabInstance:
     - target: {fileID: 106093692981118498, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
       propertyPath: m_Name
-      value: Soda Slot 1 (1)
+      value: Orange Slot
       objectReference: {fileID: 0}
     - target: {fileID: 406981427254625433, guid: aec71f91a8da27d418aa44bd0c543f9b,
         type: 3}
@@ -15162,6 +15238,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2104323767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 728864242803681389, guid: aec71f91a8da27d418aa44bd0c543f9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 497771454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104323764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2112680152
 PrefabInstance:
   m_ObjectHideFlags: 0
