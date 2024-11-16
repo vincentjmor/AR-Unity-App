@@ -6,8 +6,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ThirdTaskBookshelf : MonoBehaviour
 {
-    public XRSocketInteractor blueBook;
-    public XRSocketInteractor yellowBook;
     public Image image;
     public Color newColor = Color.green;
 
