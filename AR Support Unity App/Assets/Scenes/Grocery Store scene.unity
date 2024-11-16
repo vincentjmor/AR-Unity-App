@@ -5195,6 +5195,21 @@ PrefabInstance:
       propertyPath: m_text
       value: Find the shelves
       objectReference: {fileID: 0}
+    - target: {fileID: 607899402546746639, guid: 40c7a7079034239458b89d55479faad9,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 607899402546746639, guid: 40c7a7079034239458b89d55479faad9,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607899402546746639, guid: 40c7a7079034239458b89d55479faad9,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
       propertyPath: m_Sprite
@@ -5214,7 +5229,7 @@ PrefabInstance:
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.40816355
+      value: 0.38431373
       objectReference: {fileID: 0}
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
@@ -10911,7 +10926,7 @@ PrefabInstance:
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.40816355
+      value: 0.38431373
       objectReference: {fileID: 0}
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
@@ -11182,7 +11197,7 @@ PrefabInstance:
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.40816355
+      value: 0.38431373
       objectReference: {fileID: 0}
     - target: {fileID: 607899402752333740, guid: 40c7a7079034239458b89d55479faad9,
         type: 3}
@@ -13589,6 +13604,16 @@ PrefabInstance:
       propertyPath: m_text
       value: Objectives
       objectReference: {fileID: 0}
+    - target: {fileID: 8107108473637831386, guid: 49e2fbde9521b4341879174df5a51b64,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107108473637831386, guid: 49e2fbde9521b4341879174df5a51b64,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8107108473637831388, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -13773,6 +13798,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107108474755245989, guid: 49e2fbde9521b4341879174df5a51b64,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107108474755245989, guid: 49e2fbde9521b4341879174df5a51b64,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.03137255
       objectReference: {fileID: 0}
     - target: {fileID: 8107108474755245991, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
