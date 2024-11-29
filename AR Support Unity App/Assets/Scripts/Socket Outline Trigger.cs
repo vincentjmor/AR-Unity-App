@@ -10,6 +10,8 @@ public class ToggleOutlineOnGrab : MonoBehaviour
     private const float VisibleScale = 1.03f;
     private const float HiddenScale = 0f;
 
+    private XRGrabInteractable grabInteractable;
+
     private void Start()
     {
         // Ensure the outline is hidden initially
@@ -19,7 +21,7 @@ public class ToggleOutlineOnGrab : MonoBehaviour
     private void OnEnable()
     {
         // Subscribe to grab events
-        var grabInteractable = GetComponent<XRGrabInteractable>();
+        grabInteractable = GetComponent<XRGrabInteractable>();
         if (grabInteractable)
         {
             grabInteractable.selectEntered.AddListener(OnGrab);
@@ -30,7 +32,6 @@ public class ToggleOutlineOnGrab : MonoBehaviour
     private void OnDisable()
     {
         // Unsubscribe from grab events
-        var grabInteractable = GetComponent<XRGrabInteractable>();
         if (grabInteractable)
         {
             grabInteractable.selectEntered.RemoveListener(OnGrab);
@@ -40,14 +41,34 @@ public class ToggleOutlineOnGrab : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        // Set the outline scale to visible
+        // Set the outline scale to visible when grabbed
         SetOutlineScale(VisibleScale);
     }
 
     private void OnRelease(SelectExitEventArgs args)
     {
-        // Set the outline scale to hidden
+        // Set the outline scale to hidden when released
         SetOutlineScale(HiddenScale);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check if the object is entering the XR Socket Interactor
+        if (other.GetComponent<XRSocketInteractor>())
+        {
+            // Set outline scale to hidden when touching an XR Socket Interactor
+            SetOutlineScale(HiddenScale);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        // Check if the object is exiting the XR Socket Interactor
+        if (other.GetComponent<XRSocketInteractor>())
+        {
+            // Set outline scale to visible when exiting the XR Socket Interactor
+            SetOutlineScale(VisibleScale);
+        }
     }
 
     private void SetOutlineScale(float scale)
