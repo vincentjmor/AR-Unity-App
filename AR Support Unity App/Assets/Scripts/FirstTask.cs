@@ -9,6 +9,7 @@ public class FirstTask : MonoBehaviour
     public GameObject targetObject; // The GameObject to check for visibility
     public Image image;
     public Color newColor = Color.green;
+    private bool hasCompletedTask = false;
 
     void Start()
     {
@@ -25,10 +26,12 @@ public class FirstTask : MonoBehaviour
             if (targetRenderer != null && GeometryUtility.TestPlanesAABB(planes, targetRenderer.bounds))
             {
                 //Debug.Log("The object is within the camera's view frustum.");
-                if (image != null)
+                if (image != null && !hasCompletedTask)
                 {
+                    hasCompletedTask = true;
                     // Change the color of the Image component
                     image.color = newColor;
+                    FindObjectOfType<SoundEffectPlayer>().PlaySound();
                 }
             }
             //else
