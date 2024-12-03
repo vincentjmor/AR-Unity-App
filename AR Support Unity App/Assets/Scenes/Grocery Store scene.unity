@@ -8958,7 +8958,7 @@ MonoBehaviour:
   m_MinFollowDistance: 0.005
   m_MaxFollowDistance: 0.03
   m_MinToMaxDelaySeconds: 1
-  m_HideMenuWhenGazeDiverges: 1
+  m_HideMenuWhenGazeDiverges: 0
   m_MenuVisibleGazeAngleDivergenceThreshold: 35
   m_AnimateMenuHideAndReveal: 1
   m_RevealHideAnimationDuration: 0.1
@@ -17883,7 +17883,7 @@ MonoBehaviour:
   m_MinFollowDistance: 0.005
   m_MaxFollowDistance: 0.03
   m_MinToMaxDelaySeconds: 1
-  m_HideMenuWhenGazeDiverges: 1
+  m_HideMenuWhenGazeDiverges: 0
   m_MenuVisibleGazeAngleDivergenceThreshold: 35
   m_AnimateMenuHideAndReveal: 1
   m_RevealHideAnimationDuration: 0.1
